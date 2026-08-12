@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Compensate for the fixed h-20 (80px) header so anchor-linked sections
+   (#overview, #challenge, #solution, #experience, #impact) don't land
+   with their heading hidden underneath it. */
+[id] {
+  scroll-margin-top: 5rem;
+}
+
+body {
+  @apply antialiased;
+  font-family: 'Geist', sans-serif;
+  background-color: theme('colors.background');
+  color: theme('colors.on-background');
+}
+
+@layer components {
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-variation-settings: 'FILL' 1;
+  }
+}
