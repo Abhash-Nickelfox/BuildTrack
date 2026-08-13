@@ -50,11 +50,6 @@ export function Hero() {
                 alt="BuildTrack admin dashboard preview"
                 className="h-full w-full object-cover object-top"
               />
-              <div className="absolute inset-x-0 top-0 flex items-center gap-1.5 bg-surface/95 px-3 py-1.5 text-xs backdrop-blur">
-                <span className="font-bold tracking-wide text-primary">BUILDTRACK</span>
-                <span className="text-outline">|</span>
-                <span className="text-on-surface-variant">Admin Dashboard</span>
-              </div>
               <div className="absolute bottom-2 left-2 rounded bg-surface/95 px-2.5 py-1 text-xs font-medium text-primary shadow-sm backdrop-blur">
                 Compliance: 98%
               </div>

@@ -9,9 +9,9 @@ const SNAPSHOT = [
 export function ProjectSnapshot() {
   return (
     <section className="border-y border-outline-variant/20 bg-surface-container py-16">
-      <div className="mx-auto grid max-w-container-max grid-cols-2 gap-8 px-margin-mobile md:grid-cols-5 md:px-margin-desktop">
+      <div className="mx-auto grid max-w-container-max grid-cols-2 gap-x-0 gap-y-8 px-margin-mobile md:grid-cols-5 md:px-margin-desktop">
         {SNAPSHOT.map((item) => (
-          <div key={item.label}>
+          <div key={item.label} className="border-l border-outline-variant/40 pl-6">
             <p className="mb-1 text-label-sm uppercase tracking-wider text-on-surface-variant">
               {item.label}
             </p>

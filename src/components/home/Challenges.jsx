@@ -1,5 +1,4 @@
-const CHALLENGE_BG =
-  'https://lh3.googleusercontent.com/aida-public/AB6AXuCIaRPX53MYqeKiVmSb4EQfz_KCOuvIBhlfr2wT-A2ghZSu4o7OUA-JG8p7sQChJB47Wsok8ddUyHb2SzjsDJ4ZAQMlLB5wEAOBT_vinfZXk3bbVS0Oriufsdaybyz1tw-zc3ZLe0DR0DCC3O_UV91naW297pda7bcRqwPaigP-FqB9my0xMvfmMKbKbwDzo950y2qD73Wg6B50QGk5Zjdlwgohje3QqUm818AbKbGb2bW5rMIdVwv5RQ'
+import challengeBg from '../../assets/challenge-bg-image.jpg'
 
 const CHALLENGES = [
   {
@@ -27,7 +26,7 @@ export function Challenges() {
     <section id="challenge" className="relative bg-surface py-32">
       <div
         className="absolute inset-0 bg-cover bg-center opacity-15 mix-blend-multiply"
-        style={{ backgroundImage: `url('${CHALLENGE_BG}')` }}
+        style={{ backgroundImage: `url('${challengeBg}')` }}
         aria-hidden="true"
       />
 

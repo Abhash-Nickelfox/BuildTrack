@@ -5,7 +5,8 @@ export const SITE = {
   legalName: 'BuildTrack Industrial',
   taglineBase: 'Construction Waste Compliance,',
   taglineAccent: 'Connected.',
-  description: 'Digital intelligence for heavy industrial operations.',
+  description:
+    'BuildTrack brings waste data, payments, and project management into one governed workflow.',
 }
 
 // Shared construction-site photo reused across Hero and Discuss for a

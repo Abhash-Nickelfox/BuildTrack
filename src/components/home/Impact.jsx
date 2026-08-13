@@ -1,5 +1,4 @@
-const IMPACT_BG =
-  'https://lh3.googleusercontent.com/aida-public/AB6AXuBC4ptvjUkk0UR7HLa7S2XCIuGBwQrTIlpdtqjJfXKQICLV4FQT2zTuPB1TpeH8i2f9BxO4VzStMiSc8erlN6iHvauaC2FpvjoaNRgZcGddgb8-gZyDLaQagFrldCHOcWuxtGQKuG0wL5zQ7jnwDFknCY1EIvUl9Eg8hs4AGsrY0mKc4mNez6tnm9S5t-sDnhYbBD4tpFWDlusBz6P0AXkX0DHpm-PctQUL2nXXrcQjo1oRM6zSWgH4EA'
+import impactBg from '../../assets/impact-bg-image.jpg'
 
 const STATS = [
   {
@@ -27,7 +26,7 @@ export function Impact() {
     <section id="impact" className="relative w-full overflow-hidden py-20 md:py-24">
       <div
         className="absolute inset-0 h-full w-full bg-cover bg-center"
-        style={{ backgroundImage: `url('${IMPACT_BG}')` }}
+        style={{ backgroundImage: `url('${impactBg}')` }}
         role="img"
         aria-label="Wide-angle photograph of a completed modern bridge infrastructure project at sunrise"
       />

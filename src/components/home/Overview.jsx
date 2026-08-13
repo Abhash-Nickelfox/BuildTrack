@@ -4,7 +4,7 @@ export function Overview() {
   return (
     <section id="overview" className="mx-auto max-w-container-max px-margin-mobile py-32 md:px-margin-desktop">
       <div className="grid grid-cols-1 items-center gap-gutter md:grid-cols-2 md:gap-16">
-        <div className="overflow-hidden rounded-2xl border border-outline-variant/20 shadow-xl">
+        <div className="overflow-hidden rounded-2xl border border-outline-variant/20 shadow-[0_0_28px_rgba(148,152,163,0.45)]">
           <img
             src={overviewImage}
             alt="Laptop displaying the BuildTrack project dashboard on a construction site desk, next to a hard hat and rolled blueprints"
