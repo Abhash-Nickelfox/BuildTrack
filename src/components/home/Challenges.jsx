@@ -3,21 +3,21 @@ import challengeBg from '../../assets/challenge-bg-image.jpg'
 const CHALLENGES = [
   {
     number: '01',
-    title: 'No Structured Data',
+    title: 'Unstructured Data',
     description:
-      'Relying on unstructured emails, physical forms, and disparate spreadsheets resulted in inconsistent reporting and massive data loss. Field teams lacked a standardized method to capture critical waste metrics, leading to downstream administrative nightmares and compliance risks.',
+      'Waste data was shared through emails and spreadsheets, making submissions inconsistent and difficult to track. Without structured forms or a central submission history, project managers had limited visibility and administrators had to manage information manually.',
   },
   {
     number: '02',
     title: 'Manual Payment Tracking',
     description:
-      'Reconciling thousands of deposits across multiple offline ledgers was incredibly error-prone. This manual bottleneck delayed contractor reimbursements by weeks, causing unnecessary friction with vendors and tying up critical project cash flow.',
+      'Compliance payments were handled through bank transfers and manual receipts, with payment status tracked outside the platform. This created reconciliation delays and made it difficult to maintain a clear, reliable record of payment activity.',
   },
   {
     number: '03',
     title: 'Lack of Visibility',
     description:
-      'Administrators had absolutely no real-time overview of compliance status across active sites globally. Generating a simple status report required days of manual aggregation, leaving leadership blind to potential regulatory violations until it was too late.',
+      'Administrators had no single view of users, project submissions, waste records, and payment history. Information had to be cross-referenced across different sources, making project oversight slower and more difficult to manage.',
   },
 ]
 
@@ -31,12 +31,12 @@ export function Challenges() {
       />
 
       <div className="relative z-10 mx-auto max-w-container-max px-margin-mobile md:px-margin-desktop">
-        <h2 className="mb-6 text-headline-lg text-primary md:text-display-lg">Systemic Friction Points</h2>
+        <h2 className="mb-6 text-headline-lg text-primary md:text-display-lg">Where the Process Breaks Down</h2>
         <p className="mb-16 max-w-3xl text-body-lg text-on-surface-variant">
-          The construction industry relies heavily on operational efficiency, yet the processes
-          managing waste compliance remained stubbornly analog. Field teams and back-office
-          administrators alike faced significant daily hurdles, leading to data loss, financial
-          delays, and mounting regulatory exposure across multiple active project sites.
+          Construction waste compliance depended on disconnected processes, from data submission
+          and payment collection to verification and project tracking. Without a structured
+          system, project managers and administrators faced unnecessary manual work, limited
+          visibility, and gaps in the overall workflow.
         </p>
 
         <div className="grid grid-cols-1 gap-gutter md:grid-cols-2 lg:grid-cols-3">

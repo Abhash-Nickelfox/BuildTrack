@@ -50,9 +50,6 @@ export function Hero() {
                 alt="BuildTrack admin dashboard preview"
                 className="h-full w-full object-cover object-top"
               />
-              <div className="absolute bottom-2 left-2 rounded bg-surface/95 px-2.5 py-1 text-xs font-medium text-primary shadow-sm backdrop-blur">
-                Compliance: 98%
-              </div>
             </div>
 
             <div className="space-y-3">

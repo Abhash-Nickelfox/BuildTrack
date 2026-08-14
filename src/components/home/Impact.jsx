@@ -5,19 +5,19 @@ const STATS = [
     metric: '100%',
     title: 'Full Digitization of Forms',
     description:
-      'Completely eliminated physical paper trails across all active sites, ensuring structured, queryable data and drastically reducing submission errors.',
+      'Replaced email, spreadsheets, and manual forms with structured digital submissions, including initial and ongoing waste data, confirmation prompts, and draft saving.',
   },
   {
     metric: 'Instant',
-    title: 'Payment Reconciliation',
+    title: 'Payment Verification',
     description:
-      'Reduced processing time by 80%, transforming weeks of manual ledger checking into a seamless, API-driven automated reconciliation workflow.',
+      'Brought payment submissions and supporting documents into a dedicated verification workflow, allowing administrators to review, approve, reject, and track payment status within the platform.',
   },
   {
     metric: 'Global',
     title: 'Compliance Visibility',
     description:
-      'Provided executive leadership and administrators with an unprecedented real-time overview of compliance status, mitigating regulatory risk globally.',
+      'Consolidated users, projects, submissions, payments, and refunds into a single authenticated admin interface, replacing the need to cross-reference disconnected records.',
   },
 ]
 
@@ -35,10 +35,10 @@ export function Impact() {
       <div className="relative z-10 mx-auto w-full max-w-container-max px-margin-mobile text-center md:px-margin-desktop">
         <h2 className="mb-4 text-display-lg text-on-primary md:text-display-xl">Operational Impact</h2>
         <p className="mx-auto mb-10 max-w-3xl text-body-lg text-on-primary/90">
-          The deployment of BuildTrack transformed an error-prone, fragmented system into a
-          unified engine of operational efficiency. The downstream effects on cash flow,
-          regulatory compliance, and team morale have fundamentally elevated the
-          organization&apos;s capabilities.
+          BuildTrack transformed a fragmented compliance process into a connected digital
+          workflow. Structured submissions, payment verification, centralized administration, and
+          audit-ready records reduce manual coordination while giving both project managers and
+          administrators clearer visibility across the process.
         </p>
 
         <div className="grid grid-cols-1 gap-6 border-t border-white/20 pt-10 text-left md:grid-cols-3">

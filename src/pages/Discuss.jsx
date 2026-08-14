@@ -46,19 +46,19 @@ export function Discuss() {
     event.preventDefault()
     setStatus('submitting')
 
-    const { error } = await supabase.from('demo_requests').insert([
+    const { error } = await supabase.from('discuss_submissions').insert([
       {
-        full_name: form.fullName,
+        name: form.fullName,
         email: form.email,
         phone: form.phone,
         organization: form.organization,
-        interest_area: form.interestArea,
+        interest: form.interestArea,
         message: form.message,
       },
     ])
 
     if (error) {
-      console.error('Failed to submit demo request:', error.message)
+      console.error('Failed to submit contact form:', error.message)
       setStatus('error')
       return
     }

@@ -14,22 +14,22 @@ export function Overview() {
 
         <div>
           <h2 className="mb-8 text-headline-lg text-primary md:text-display-lg">
-            From Paper Trails to Digital Intelligence
+            From Manual Workflows to One Connected Platform
           </h2>
           <p className="mb-6 text-body-lg leading-relaxed text-on-surface-variant">
-            Before BuildTrack, the landscape of heavy industrial construction waste management was a
-            labyrinth of manual paper trails, fragmented communication, and isolated data silos.
-            Project managers spent countless hours tracking down physical tickets, while
-            administrators struggled to reconcile deposits across disconnected ledgers. This
-            systemic inefficiency led to severe compliance bottlenecks, delaying critical operations
-            and holding up vital project capital.
+            Construction waste management was spread across emails, spreadsheets, manual
+            submissions, and payment records. Project managers had to manage their data across
+            different channels, while administrators spent time tracking submissions, verifying
+            payments, and maintaining project records. BuildTrack brought the entire process into
+            one place, making it easier for project managers to submit and track data while giving
+            administrators a clear view of projects, payments, and compliance.
           </p>
           <p className="text-body-lg leading-relaxed text-on-surface-variant">
-            The objective was clear: transform an archaic, analog process into a centralized,
-            high-density digital ecosystem. By bridging the gap between on-site personnel and
-            back-office administrators, we engineered a platform that not only streamlined
-            structured data submission but also automated digital payment reconciliation,
-            fundamentally changing how compliance is managed globally.
+            With structured submissions, draft saving, integrated payments, payment verification,
+            and centralized project oversight, BuildTrack connects every important step of the
+            workflow. What was once a fragmented and manual process becomes a simpler, more
+            transparent, and accountable digital workflow, giving every stakeholder better
+            visibility and greater control.
           </p>
         </div>
       </div>
